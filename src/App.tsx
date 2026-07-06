@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Sparkles, CheckCircle, Info, Heart, X } from "lucide-react";
+import { X } from "lucide-react";
 import { Product, CartItem, ColorVariant } from "./types";
 import { PRODUCTS } from "./data";
 

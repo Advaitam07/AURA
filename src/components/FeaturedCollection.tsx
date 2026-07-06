@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowUpRight, ShoppingBag, Eye, Heart } from "lucide-react";
+import { Eye } from "lucide-react";
 import { Product, CartItem } from "../types";
 import { PRODUCTS } from "../data";
 

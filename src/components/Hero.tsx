@@ -1,7 +1,8 @@
 import { motion } from "motion/react";
-import { ArrowUpRight, Sparkles, ShieldCheck, Heart, ShoppingBag } from "lucide-react";
+import { ArrowUpRight, ShoppingBag } from "lucide-react";
 import { Product } from "../types";
 import { PRODUCTS } from "../data";
+import heroImg from "../assets/images/aura_luxury_hero_1783274101555.jpg";
 
 interface HeroProps {
   onScrollToSection: (sectionId: string) => void;
@@ -105,7 +106,7 @@ export default function Hero({ onScrollToSection, onQuickView, onAddToCart }: He
           >
             {/* Parallax Subtle Zooming Image */}
             <motion.img
-              src="/src/assets/images/aura_luxury_hero_1783274101555.jpg"
+              src={heroImg}
               alt="AURA Luxury Showcase"
               className="w-full h-full object-cover grayscale opacity-90 contrast-[1.05]"
               referrerPolicy="no-referrer"

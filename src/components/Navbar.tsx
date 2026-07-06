@@ -154,7 +154,7 @@ export default function Navbar({
                               onQuickView(p);
                               setActiveMegaMenu(null);
                             }}
-                            className="text-[10px] font-mono text-neutral-400 hover:text-white mt-2 inline-block cursor-pointer border border-neutral-800 hover:border-neutral-700 px-2..5 py-1 rounded"
+                            className="text-[10px] font-mono text-neutral-400 hover:text-white mt-2 inline-block cursor-pointer border border-neutral-800 hover:border-neutral-700 px-2.5 py-1 rounded"
                           >
                             [ INFO ]
                           </button>

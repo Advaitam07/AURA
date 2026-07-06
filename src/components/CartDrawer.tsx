@@ -114,7 +114,7 @@ export default function CartDrawer({
               <div className="flex-1 overflow-y-auto py-6 px-6 md:px-8 space-y-6">
                 {/* Free Shipping Meter */}
                 {cart.length > 0 && (
-                  <div className="bg-neutral-950/40 rounded-[16px] p-4.5 border border-neutral-900 space-y-2 text-left">
+                  <div className="bg-neutral-950/40 rounded-[16px] p-[18px] border border-neutral-900 space-y-2 text-left">
                     <div className="flex justify-between items-baseline text-[10px] font-mono uppercase tracking-wider text-neutral-400">
                       <span>
                         {isFreeShipping ? "complimentary delivery unlocked" : "Complimentary Express Delivery"}
@@ -386,7 +386,7 @@ export default function CartDrawer({
                 </div>
 
                 {/* Tracking Frame */}
-                <div className="w-full bg-[#000000] text-white rounded-[16px] p-4.5 text-left flex items-start gap-3.5 relative overflow-hidden border border-neutral-900">
+                <div className="w-full bg-[#000000] text-white rounded-[16px] p-[18px] text-left flex items-start gap-3.5 relative overflow-hidden border border-neutral-900">
                   <div className="absolute top-0 right-0 w-24 h-24 bg-[#FF3333]/5 rounded-full filter blur-[30px]" />
                   <Truck className="w-4 h-4 text-[#FF3333] flex-shrink-0 mt-0.5 animate-pulse" />
                   <div className="space-y-1 font-mono uppercase">
@@ -437,7 +437,7 @@ export default function CartDrawer({
                         </div>
                         <button
                           type="submit"
-                          className="px-4.5 rounded-xl bg-white hover:bg-neutral-200 text-black text-[10px] font-mono uppercase tracking-wider transition-colors cursor-pointer"
+                          className="px-[18px] rounded-xl bg-white hover:bg-neutral-200 text-black text-[10px] font-mono uppercase tracking-wider transition-colors cursor-pointer"
                         >
                           Apply
                         </button>

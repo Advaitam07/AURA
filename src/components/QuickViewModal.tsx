@@ -210,7 +210,7 @@ export default function QuickViewModal({
                           title={color.name}
                         >
                           <span
-                            className="w-4.5 h-4.5 rounded-full border border-black/10"
+                            className="w-[18px] h-[18px] rounded-full border border-black/10"
                             style={{ backgroundColor: color.value }}
                           />
                         </button>

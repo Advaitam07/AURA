@@ -1,6 +1,5 @@
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Filter, SlidersHorizontal, Sparkles } from "lucide-react";
 import { Product, CartItem } from "../types";
 import { PRODUCTS } from "../data";
 import ProductCard from "./ProductCard";

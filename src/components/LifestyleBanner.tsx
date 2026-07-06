@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { ArrowUpRight } from "lucide-react";
+import lifestyleImg from "../assets/images/aura_lifestyle_banner_1783274156016.jpg";
 
 interface LifestyleBannerProps {
   onScrollToSection: (sectionId: string) => void;
@@ -10,7 +11,7 @@ export default function LifestyleBanner({ onScrollToSection }: LifestyleBannerPr
     <section id="lifestyle-banner" className="relative h-[650px] overflow-hidden flex items-center justify-center px-6 md:px-12 border-b border-neutral-900 bg-black">
       {/* Cinematic Backdrop Image */}
       <img
-        src="/src/assets/images/aura_lifestyle_banner_1783274156016.jpg"
+        src={lifestyleImg}
         alt="AURA Atrium Architecture"
         className="absolute inset-0 w-full h-full object-cover grayscale opacity-80"
         referrerPolicy="no-referrer"

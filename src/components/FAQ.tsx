@@ -67,7 +67,7 @@ export default function FAQ() {
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3, ease: "easeInOut" }}
                     >
-                      <div className="pb-6 px-5 sm:px-8 pl-5 sm:pl-18 border-t border-neutral-900 pt-4">
+                      <div className="pb-6 px-5 sm:px-8 pl-5 sm:pl-[72px] border-t border-neutral-900 pt-4">
                         <p className="text-[11px] text-neutral-450 leading-relaxed font-mono">
                           {faq.answer}
                         </p>

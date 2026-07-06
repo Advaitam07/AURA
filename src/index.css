@@ -5,6 +5,12 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
   --font-ndot: "DotGothic16", "JetBrains Mono", ui-monospace, monospace;
+
+  /* Custom z-index scale */
+  --z-index-15: 15;
+  --z-index-45: 45;
+  --z-index-100: 100;
+  --z-index-150: 150;
 }
 
 @layer utilities {
@@ -16,5 +22,23 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+
+  /* Custom z-index utilities */
+  .z-15 { z-index: 15; }
+  .z-45 { z-index: 45; }
+  .z-100 { z-index: 100; }
+  .z-150 { z-index: 150; }
+
+  /* Custom animation: slow spin for compass */
+  @keyframes spin-slow {
+    to { transform: rotate(360deg); }
+  }
+  .animate-spin-slow {
+    animation: spin-slow 8s linear infinite;
+  }
+
+  /* Custom transition durations */
+  .duration-350 { transition-duration: 350ms; }
+  .duration-750 { transition-duration: 750ms; }
 }
 
